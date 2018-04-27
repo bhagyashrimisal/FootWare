@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg3"
+    tools:context="com.example.rohini.footware.Contact_us">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/text3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="39dp"
+        android:text="Mayuri_joy_Mitra"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="8766816991"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/text2"
+        android:layout_marginEnd="86dp"
+        android:layout_marginTop="15dp"
+        android:text="mitramayuri999_gmail_com"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        android:layout_marginRight="86dp"
+        android:layout_alignParentRight="true" />
+
+    <ImageView
+        android:id="@+id/circular"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_above="@+id/text1"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/black"
+        android:contentDescription="todo"
+        app:srcCompat="@drawable/aaa" />
+
+</RelativeLayout>
